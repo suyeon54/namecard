@@ -7,6 +7,7 @@
   
 } */
 
+.pc {display: none;}
 #wrap {background: url(../images/bg.png);background-size: cover; padding-top: 40px;}
 
 header {margin: 50px 0; padding: 0 40px;}
@@ -16,14 +17,11 @@ header strong {font-size: 18px; text-align: center;display: block; margin-top: 1
 header em {font-size: 14px; text-align: center;display: block; margin-top: 4px; font-style: normal; word-break: keep-all;}
 
 
-.btn_box {margin-bottom: 40px; display: flex; flex-direction: column; align-items: center; gap: 16px;}
-.btn_box a {background: #000; font-size: 16px; padding: 15px 25.44vw; border-radius: 20px; min-width: 80px;/*  flex-shrink: 0; */ text-align: center;}
+.btn_box {display: flex; flex-direction: column; align-items: center; gap: 16px;border: 1px solid #000; justify-content: center; margin: 0 35px 40px 35px;}
+.btn_box a {background: #000; font-size: 16px; padding: 15px 25.44vw; border-radius: 20px; width: 100px; height: 20px;/*  flex-shrink: 0; */ text-align: center;}
 
-.btn_box a .call {position: absolute; right: 80px; top: 285px}
-.btn_box a .message {position: absolute; right: 80px; top: 350px}
-.btn_box a .kakao {position: absolute; right: 80px; top: 415px}
-.btn_box a .mail {position: absolute; right: 80px; top: px}
-.btn_box a .blog {position: absolute; right: 80px; top: px}
+/* .btn_box a:nth-child(1):after {content: url(../images/call.png);box-sizing: border-box;border: 1px solid #000; transform: translateX(80px); transform: translateY(-10px);}
+ */
 
 
 .btn_box a:nth-child(1) {background: #4F95FF;}
@@ -38,7 +36,9 @@ header em {font-size: 14px; text-align: center;display: block; margin-top: 4px; 
 
 
 
-@media screen and (min-width:500px){
+@media screen and (min-width:800px){
+  .pc {display: block;}
   header h1 {width: 110px;height: 110px;}
-  
+  .btn_box {flex-direction: row; flex-wrap: wrap;}
+  .btn_box a {flex-grow: 1;width: 100px;}
 }
