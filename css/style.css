@@ -17,8 +17,8 @@ header strong {font-size: 18px; text-align: center;display: block; margin-top: 1
 header em {font-size: 14px; text-align: center;display: block; margin-top: 4px; font-style: normal; word-break: keep-all;}
 
 
-.btn_box {display: flex; flex-direction: column; align-items: center; gap: 16px;border: 1px solid #000; justify-content: center; margin: 0 35px 40px 35px;}
-.btn_box a {background: #000; font-size: 16px; padding: 15px 25.44vw; border-radius: 20px; width: 100px; height: 20px;/*  flex-shrink: 0; */ text-align: center;}
+.btn_box {display: flex; flex-direction: column; align-items: center; gap: 16px;justify-content: center; margin: 0 35px 40px 35px;}
+.btn_box a {background: #000; font-size: 16px; padding: 15px 15vw; border-radius: 20px; width: 100px; height: 20px;/*  flex-shrink: 0; */ text-align: center;}
 
 /* .btn_box a:nth-child(1):after {content: url(../images/call.png);box-sizing: border-box;border: 1px solid #000; transform: translateX(80px); transform: translateY(-10px);}
  */
