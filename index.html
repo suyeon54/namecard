@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정수연 온라인 명함</title>
+    <!-- 필수는 og 태그 -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://btwi03.co.kr">
+    <meta property="og:title" content="정수연의 온라인 명함">
+    <meta property="og:image" content="/images/profile.png">
+    <meta property="og:description" content="정수연 온라인 명함, 전화번호, 이메일">
+    <meta property="og:site_name" content="온라인 명함">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <h1><img src="images/profile.png" alt=""></h1>
+            <strong>Jeong su yeon</strong>
+            <em>고양이를 좋아하는 디자인 &amp; 퍼블리싱 작업자</em>
+        </header>
+        <div class="btn_box">
+            <a href="#">전화
+                <img class="call" src="images/call.png" alt="">
+            </a>
+            <a href="#">문자
+                <img class="message" src="images/message.png" alt="">
+            </a>
+            <a href="#">카카오톡
+                <img class="kakao" src="images/kakao.png" alt="">
+            </a>
+            <a href="#">메일
+                <img class="mail" src="images/mail.png" alt="">
+            </a>
+            <a href="#">블로그
+                <img class="blog" src="images/blog.png" alt="">
+            </a>
+        </div>
+
+
+        <div class="map_box">
+            <h2>오시는 길</h2>
+            <div class="map">
+                <!--
+	* 카카오맵 - 약도서비스
+	* 한 페이지 내에 약도를 2개 이상 넣을 경우에는
+	* 약도의 수 만큼 소스를 새로 생성, 삽입해야 합니다.
+-->
+<!-- 1. 약도 노드 -->
+<div id="daumRoughmapContainer1721023158896" class="root_daum_roughmap root_daum_roughmap_landing" style="width: 100%"></div>
+
+<!-- 2. 설치 스크립트 -->
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+<!-- 3. 실행 스크립트 -->
+<script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1721023158896",
+		"key" : "2k2ii",
+		"mapWidth" : "",
+		"mapHeight" : "360"
+	}).render();
+</script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

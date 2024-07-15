@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@import url(reset.css);
+@import url(font.css);
+
+/* @media screen and (max-width:499px) {
+  
+} */
+
+#wrap {background: url(../images/bg.png);background-size: cover; padding-top: 40px;}
+
+header {margin: 50px 0; padding: 0 40px;}
+header h1 {width: 80px; height: 80px;border-radius: 50%;margin: 0 auto;overflow: hidden;}
+header h1 img {width: 100%; }
+header strong {font-size: 18px; text-align: center;display: block; margin-top: 10px;}
+header em {font-size: 14px; text-align: center;display: block; margin-top: 4px; font-style: normal; word-break: keep-all;}
+
+
+.btn_box {margin-bottom: 40px; display: flex; flex-direction: column; align-items: center; gap: 16px;}
+.btn_box a {background: #000; font-size: 16px; padding: 15px 25.44vw; border-radius: 20px; min-width: 80px;/*  flex-shrink: 0; */ text-align: center;}
+
+.btn_box a .call {position: absolute; right: 80px; top: 285px}
+.btn_box a .message {position: absolute; right: 80px; top: 350px}
+.btn_box a .kakao {position: absolute; right: 80px; top: 415px}
+.btn_box a .mail {position: absolute; right: 80px; top: px}
+.btn_box a .blog {position: absolute; right: 80px; top: px}
+
+
+.btn_box a:nth-child(1) {background: #4F95FF;}
+.btn_box a:nth-child(2) {background: #82B4FF;}
+.btn_box a:nth-child(3) {background: #FFD25F;}
+.btn_box a:nth-child(4) {background: #6FBB80;}
+.btn_box a:nth-child(5) {background: #fff;}
+
+
+.map_box {padding: 0 35px; padding-bottom: 100px;}
+.map_box h2 {font-size: 16px; text-align: center; margin-bottom: 20px; color: #fff;}
+
+
+
+@media screen and (min-width:500px){
+  header h1 {width: 110px;height: 110px;}
+  
+}
